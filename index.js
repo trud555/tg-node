@@ -21,7 +21,7 @@ bot.on('message', async (msg) => {
   }
 
   if(text === 'sss'){
-    await bot.sendMessage(chatId, 'Привет', {
+    await bot.sendMessage(chatId, 'Добрый день', {
         reply_markup:{
             inline_keyboard:[
                 [{text:'Жми сюда', web_app: {url: webAppUrl+'form'}}],
