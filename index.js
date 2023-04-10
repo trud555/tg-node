@@ -24,7 +24,7 @@ bot.on('message', async (msg) => {
     await bot.sendMessage(chatId, 'Привет', {
         reply_markup:{
             inline_keyboard:[
-                [{text:'Зайти сюда', web_app: {url: webAppUrl+'form'}}],
+                [{text:'Жми сюда', web_app: {url: webAppUrl+'form'}}],
                
             ]
         }
