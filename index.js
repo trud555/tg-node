@@ -37,6 +37,17 @@ bot.on('message', async (msg) => {
     })
   }
 
+  if(text === 'port'){
+    await bot.sendMessage(chatId, 'Это Порт!!!', {
+        reply_markup:{
+            inline_keyboard:[
+                [{text:'Жми сюда', web_app: {url: webAppUrl+'form'}}],
+               
+            ]
+        }
+    })
+  }
+
   
 });
 
